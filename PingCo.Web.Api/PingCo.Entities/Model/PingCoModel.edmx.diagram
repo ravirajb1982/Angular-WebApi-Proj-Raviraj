@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c16c834844214309ac3f181915f64754" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="PingCoModel.Device" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="PingCoModel.Interface" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="PingCoModel.IPAddress" Width="1.5" PointX="7.5" PointY="0.875" />
+        <EntityTypeShape EntityType="PingCoModel.Location" Width="1.5" PointX="0.75" PointY="0.875" />
+        <AssociationConnector Association="PingCoModel.FK_InterfaceDevices" />
+        <AssociationConnector Association="PingCoModel.FK_LocationDevices" />
+        <AssociationConnector Association="PingCoModel.FK_InterfaceIPAddress" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

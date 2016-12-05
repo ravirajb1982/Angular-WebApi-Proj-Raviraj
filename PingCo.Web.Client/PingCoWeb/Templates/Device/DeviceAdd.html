@@ -1,0 +1,46 @@
+﻿<form name="myForm" id="DeviceFormAdd" class="form-horizontal" role="form">
+    <fieldset>
+        <legend>Add Device</legend>
+
+        <div class="form-group has-feedback">
+            <label class="col-sm-2 control-label" for="Location">Location</label>
+            <div class="col-sm-8">
+                <select class="form-control" name="Location" data-ng-model="Device.LocationId" required ng-options="loc.Id as loc.Name for loc in locationsData">
+                    <option value="">select Location</option>
+                </select>
+            </div>
+        </div>
+
+            <div class="form-group has-feedback" ng-class="{'has-success': myForm.Name.$valid, 'has-error': myForm.Name.$invalid}">
+                <label class="col-sm-2 control-label" for="name">Name</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="Name" data-ng-model="Device.Name" ng-required="true" />
+                    <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.Name.$valid, 'glyphicon-remove': myForm.Name.$invalid}" aria-hidden="true"></span>
+                </div>
+            </div>
+
+            <div class="form-group has-feedback" ng-class="{'has-success': myForm.RUHeight.$valid, 'has-error': myForm.RUHeight.$invalid}">
+                <label class="col-sm-2 control-label" for="RUHeight">RUHeight</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="RUHeight" data-ng-model="Device.RUHeight" ng-required="true" />
+                    <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.RUHeight.$valid, 'glyphicon-remove': myForm.RUHeight.$invalid}" aria-hidden="true"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="pull-right">
+                        <button class="btn btn-primary" data-ng-click="CreateDevice(Device,myForm.$valid)"><span class="glyphicon glyphicon-ok-sign"></span> Add</button>
+                        <button class="btn btn-primary" data-ng-click="Cancel()"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <span id="MessageErr" class="col-sm-offset-3 col-sm-9" ng-bind="MsgErr"></span>
+                <ul ng-repeat="r in errorMsgs">
+                    <li>{{r}}</li>
+                </ul>
+            </div>
+</fieldset>
+</form>

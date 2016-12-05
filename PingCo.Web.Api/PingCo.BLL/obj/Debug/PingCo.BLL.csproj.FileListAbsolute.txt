@@ -1,0 +1,38 @@
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.BLL.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.BLL.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.DAL.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\EntityFramework.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.Api.Common.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\System.Web.Http.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\AutoMapper.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.DAL.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\EntityFramework.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\PingCo.Api.Common.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\System.Web.Http.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\AutoMapper.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\obj\Debug\PingCo.BLL.csprojResolveAssemblyReference.cache
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\obj\Debug\PingCo.BLL.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.BLL\obj\Debug\PingCo.BLL.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.BLL.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.BLL.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.DAL.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\EntityFramework.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.Api.Common.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\System.Web.Http.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\AutoMapper.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.DAL.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\EntityFramework.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\PingCo.Api.Common.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\System.Web.Http.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\AutoMapper.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\obj\Debug\PingCo.BLL.csprojResolveAssemblyReference.cache
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\obj\Debug\PingCo.BLL.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.BLL\obj\Debug\PingCo.BLL.pdb

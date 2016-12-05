@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PingCoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Devices">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="LocationId" Type="int" Nullable="false" />
+          <Property Name="RUHeight" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Interfaces">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Device_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="IPAddresses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IsV6" Type="bit" Nullable="false" />
+          <Property Name="InterfaceId" Type="int" Nullable="false" />
+          <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Subnet" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Locations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="RackId" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="RU" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_InterfaceDevices">
+          <End Role="Devices" Type="Self.Devices" Multiplicity="1" />
+          <End Role="Interfaces" Type="Self.Interfaces" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Devices">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Interfaces">
+              <PropertyRef Name="Device_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InterfaceIPAddress">
+          <End Role="Interfaces" Type="Self.Interfaces" Multiplicity="1" />
+          <End Role="IPAddresses" Type="Self.IPAddresses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Interfaces">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="IPAddresses">
+              <PropertyRef Name="InterfaceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocationDevices">
+          <End Role="Locations" Type="Self.Locations" Multiplicity="1" />
+          <End Role="Devices" Type="Self.Devices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Locations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Devices">
+              <PropertyRef Name="LocationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PingCoModelStoreContainer">
+          <EntitySet Name="Devices" EntityType="Self.Devices" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Interfaces" EntityType="Self.Interfaces" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="IPAddresses" EntityType="Self.IPAddresses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Locations" EntityType="Self.Locations" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_InterfaceDevices" Association="Self.FK_InterfaceDevices">
+            <End Role="Devices" EntitySet="Devices" />
+            <End Role="Interfaces" EntitySet="Interfaces" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InterfaceIPAddress" Association="Self.FK_InterfaceIPAddress">
+            <End Role="Interfaces" EntitySet="Interfaces" />
+            <End Role="IPAddresses" EntitySet="IPAddresses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocationDevices" Association="Self.FK_LocationDevices">
+            <End Role="Locations" EntitySet="Locations" />
+            <End Role="Devices" EntitySet="Devices" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PingCoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="PingCoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Devices" EntityType="PingCoModel.Device" />
+          <EntitySet Name="Interfaces" EntityType="PingCoModel.Interface" />
+          <EntitySet Name="IPAddresses" EntityType="PingCoModel.IPAddress" />
+          <EntitySet Name="Locations" EntityType="PingCoModel.Location" />
+          <AssociationSet Name="FK_InterfaceDevices" Association="PingCoModel.FK_InterfaceDevices">
+            <End Role="Device" EntitySet="Devices" />
+            <End Role="Interface" EntitySet="Interfaces" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocationDevices" Association="PingCoModel.FK_LocationDevices">
+            <End Role="Location" EntitySet="Locations" />
+            <End Role="Device" EntitySet="Devices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_InterfaceIPAddress" Association="PingCoModel.FK_InterfaceIPAddress">
+            <End Role="Interface" EntitySet="Interfaces" />
+            <End Role="IPAddress" EntitySet="IPAddresses" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Device">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LocationId" Type="Int32" Nullable="false" />
+          <Property Name="RUHeight" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Interfaces" Relationship="PingCoModel.FK_InterfaceDevices" FromRole="Device" ToRole="Interface" />
+          <NavigationProperty Name="Location" Relationship="PingCoModel.FK_LocationDevices" FromRole="Device" ToRole="Location" />
+        </EntityType>
+        <EntityType Name="Interface">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Device_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Device" Relationship="PingCoModel.FK_InterfaceDevices" FromRole="Interface" ToRole="Device" />
+          <NavigationProperty Name="IPAddresses" Relationship="PingCoModel.FK_InterfaceIPAddress" FromRole="Interface" ToRole="IPAddress" />
+        </EntityType>
+        <EntityType Name="IPAddress">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsV6" Type="Boolean" Nullable="false" />
+          <Property Name="InterfaceId" Type="Int32" Nullable="false" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Subnet" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Interface" Relationship="PingCoModel.FK_InterfaceIPAddress" FromRole="IPAddress" ToRole="Interface" />
+        </EntityType>
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RackId" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RU" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Devices" Relationship="PingCoModel.FK_LocationDevices" FromRole="Location" ToRole="Device" />
+        </EntityType>
+        <Association Name="FK_InterfaceDevices">
+          <End Type="PingCoModel.Device" Role="Device" Multiplicity="1" />
+          <End Type="PingCoModel.Interface" Role="Interface" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Device">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Interface">
+              <PropertyRef Name="Device_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocationDevices">
+          <End Type="PingCoModel.Location" Role="Location" Multiplicity="1" />
+          <End Type="PingCoModel.Device" Role="Device" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Location">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Device">
+              <PropertyRef Name="LocationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_InterfaceIPAddress">
+          <End Type="PingCoModel.Interface" Role="Interface" Multiplicity="1" />
+          <End Type="PingCoModel.IPAddress" Role="IPAddress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Interface">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="IPAddress">
+              <PropertyRef Name="InterfaceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PingCoModelStoreContainer" CdmEntityContainer="PingCoEntities">
+          <EntitySetMapping Name="Devices">
+            <EntityTypeMapping TypeName="PingCoModel.Device">
+              <MappingFragment StoreEntitySet="Devices">
+                <ScalarProperty Name="RUHeight" ColumnName="RUHeight" />
+                <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Interfaces">
+            <EntityTypeMapping TypeName="PingCoModel.Interface">
+              <MappingFragment StoreEntitySet="Interfaces">
+                <ScalarProperty Name="Device_Id" ColumnName="Device_Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="IPAddresses">
+            <EntityTypeMapping TypeName="PingCoModel.IPAddress">
+              <MappingFragment StoreEntitySet="IPAddresses">
+                <ScalarProperty Name="Subnet" ColumnName="Subnet" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+                <ScalarProperty Name="IsV6" ColumnName="IsV6" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Locations">
+            <EntityTypeMapping TypeName="PingCoModel.Location">
+              <MappingFragment StoreEntitySet="Locations">
+                <ScalarProperty Name="RU" ColumnName="RU" />
+                <ScalarProperty Name="RackId" ColumnName="RackId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

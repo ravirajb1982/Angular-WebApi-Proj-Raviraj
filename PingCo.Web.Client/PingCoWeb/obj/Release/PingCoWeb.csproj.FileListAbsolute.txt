@@ -1,0 +1,94 @@
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\csc.exe
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\vbc.exe
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWeb.dll.config
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWeb.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWeb.pdb
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWebAPI.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.Cors.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\PingCo.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\EntityFramework.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.WebHost.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Net.Http.Formatting.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\Newtonsoft.Json.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Cors.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWebAPI.pdb
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.xml
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.Cors.xml
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\PingCo.pdb
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\EntityFramework.xml
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.WebHost.xml
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\System.Net.Http.Formatting.xml
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\bin\Newtonsoft.Json.xml
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\obj\Release\PingCoWeb.csprojResolveAssemblyReference.cache
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\obj\Release\PingCoWeb.dll
+C:\Users\beyon\documents\visual studio 2015\Projects\Proj\PingCo\PingCoWeb\obj\Release\PingCoWeb.pdb
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\csc.exe
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\vbc.exe
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Proj\PingCo\PingCoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWeb.dll.config
+C:\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWeb.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWeb.pdb
+C:\Projects\Proj\PingCo\PingCoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWebAPI.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.Cors.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\PingCo.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\EntityFramework.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.WebHost.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Net.Http.Formatting.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\Newtonsoft.Json.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Cors.dll
+C:\Projects\Proj\PingCo\PingCoWeb\bin\PingCoWebAPI.pdb
+C:\Projects\Proj\PingCo\PingCoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.xml
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.Cors.xml
+C:\Projects\Proj\PingCo\PingCoWeb\bin\PingCo.pdb
+C:\Projects\Proj\PingCo\PingCoWeb\bin\EntityFramework.xml
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Web.Http.WebHost.xml
+C:\Projects\Proj\PingCo\PingCoWeb\bin\System.Net.Http.Formatting.xml
+C:\Projects\Proj\PingCo\PingCoWeb\bin\Newtonsoft.Json.xml
+C:\Projects\Proj\PingCo\PingCoWeb\obj\Release\PingCoWeb.csprojResolveAssemblyReference.cache
+C:\Projects\Proj\PingCo\PingCoWeb\obj\Release\PingCoWeb.dll
+C:\Projects\Proj\PingCo\PingCoWeb\obj\Release\PingCoWeb.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\csc.exe
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\vbc.exe
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\PingCoWeb.dll.config
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\PingCoWeb.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\PingCoWeb.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\obj\Release\PingCoWeb.csprojResolveAssemblyReference.cache
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\obj\Release\PingCoWeb.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Client\PingCoWeb\obj\Release\PingCoWeb.pdb

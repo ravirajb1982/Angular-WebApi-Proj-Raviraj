@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PingCoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PingCoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Devices" EntityType="PingCoModel.Device" />
+    <EntitySet Name="Interfaces" EntityType="PingCoModel.Interface" />
+    <EntitySet Name="IPAddresses" EntityType="PingCoModel.IPAddress" />
+    <EntitySet Name="Locations" EntityType="PingCoModel.Location" />
+    <AssociationSet Name="FK_InterfaceDevices" Association="PingCoModel.FK_InterfaceDevices">
+      <End Role="Device" EntitySet="Devices" />
+      <End Role="Interface" EntitySet="Interfaces" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocationDevices" Association="PingCoModel.FK_LocationDevices">
+      <End Role="Location" EntitySet="Locations" />
+      <End Role="Device" EntitySet="Devices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InterfaceIPAddress" Association="PingCoModel.FK_InterfaceIPAddress">
+      <End Role="Interface" EntitySet="Interfaces" />
+      <End Role="IPAddress" EntitySet="IPAddresses" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Device">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LocationId" Type="Int32" Nullable="false" />
+    <Property Name="RUHeight" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Interfaces" Relationship="PingCoModel.FK_InterfaceDevices" FromRole="Device" ToRole="Interface" />
+    <NavigationProperty Name="Location" Relationship="PingCoModel.FK_LocationDevices" FromRole="Device" ToRole="Location" />
+  </EntityType>
+  <EntityType Name="Interface">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Device_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Device" Relationship="PingCoModel.FK_InterfaceDevices" FromRole="Interface" ToRole="Device" />
+    <NavigationProperty Name="IPAddresses" Relationship="PingCoModel.FK_InterfaceIPAddress" FromRole="Interface" ToRole="IPAddress" />
+  </EntityType>
+  <EntityType Name="IPAddress">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IsV6" Type="Boolean" Nullable="false" />
+    <Property Name="InterfaceId" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Subnet" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Interface" Relationship="PingCoModel.FK_InterfaceIPAddress" FromRole="IPAddress" ToRole="Interface" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RackId" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RU" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Devices" Relationship="PingCoModel.FK_LocationDevices" FromRole="Location" ToRole="Device" />
+  </EntityType>
+  <Association Name="FK_InterfaceDevices">
+    <End Type="PingCoModel.Device" Role="Device" Multiplicity="1" />
+    <End Type="PingCoModel.Interface" Role="Interface" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Device">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Interface">
+        <PropertyRef Name="Device_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocationDevices">
+    <End Type="PingCoModel.Location" Role="Location" Multiplicity="1" />
+    <End Type="PingCoModel.Device" Role="Device" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Device">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InterfaceIPAddress">
+    <End Type="PingCoModel.Interface" Role="Interface" Multiplicity="1" />
+    <End Type="PingCoModel.IPAddress" Role="IPAddress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Interface">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="IPAddress">
+        <PropertyRef Name="InterfaceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PingCoModelStoreContainer" CdmEntityContainer="PingCoEntities">
+    <EntitySetMapping Name="Devices">
+      <EntityTypeMapping TypeName="PingCoModel.Device">
+        <MappingFragment StoreEntitySet="Devices">
+          <ScalarProperty Name="RUHeight" ColumnName="RUHeight" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Interfaces">
+      <EntityTypeMapping TypeName="PingCoModel.Interface">
+        <MappingFragment StoreEntitySet="Interfaces">
+          <ScalarProperty Name="Device_Id" ColumnName="Device_Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IPAddresses">
+      <EntityTypeMapping TypeName="PingCoModel.IPAddress">
+        <MappingFragment StoreEntitySet="IPAddresses">
+          <ScalarProperty Name="Subnet" ColumnName="Subnet" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+          <ScalarProperty Name="IsV6" ColumnName="IsV6" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="PingCoModel.Location">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="RU" ColumnName="RU" />
+          <ScalarProperty Name="RackId" ColumnName="RackId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

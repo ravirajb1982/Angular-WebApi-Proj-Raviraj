@@ -1,0 +1,54 @@
+﻿<form name="myForm" id="LocFormAdd" novalidate class="form-horizontal" role="form">
+    <fieldset>
+        <legend>Add Location</legend>
+        <div class="form-group has-feedback" ng-class="{'has-success': myForm.Name.$valid, 'has-error': myForm.Name.$invalid}">
+            <label class="col-sm-2 control-label" for="name">Name</label>
+            <div class="col-sm-10">
+                <input class="form-control" type="text" name="Name" data-ng-model="Loc.Name" ng-required="true" />
+                <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.Name.$valid, 'glyphicon-remove': myForm.Name.$invalid}" aria-hidden="true"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group has-feedback" ng-class="{'has-success': myForm.Address.$valid, 'has-error': myForm.Address.$invalid}">
+            <label class="col-sm-2 control-label" for="Address">Address</label>
+            <div class="col-sm-10">
+                <input class="form-control" type="text" name="Address" data-ng-model="Loc.Address" ng-required="true" />
+                <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.Address.$valid, 'glyphicon-remove': myForm.Address.$invalid}" aria-hidden="true"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group has-feedback" ng-class="{'has-success': myForm.RackId.$valid, 'has-error': myForm.RackId.$invalid}">
+            <label class="col-sm-2 control-label" for="RackId">RackId</label>
+            <div class="col-sm-10">
+                <input class="form-control" type="text" name="RackId" data-ng-model="Loc.RackId" ng-required="true" />
+                <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.RackId.$valid, 'glyphicon-remove': myForm.RackId.$invalid}" aria-hidden="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback" ng-class="{'has-success': myForm.RU.$valid, 'has-error': myForm.RU.$invalid}">
+            <label class="col-sm-2 control-label" for="name">RU</label>
+            <div class="col-sm-10">
+                <input class="form-control" type="text" name="RU" data-ng-model="Loc.RU" ng-required="true" />
+                <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.RU.$valid, 'glyphicon-remove': myForm.RU.$invalid}" aria-hidden="true"></span>
+            </div>
+        </div>
+
+       <br />
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="pull-right">
+                    <button class="btn btn-primary" data-ng-click="CreateLocation(Loc,myForm.$valid)"><span class="glyphicon glyphicon-ok-sign"></span> Add</button>
+                    <button class="btn btn-primary" data-ng-click="Cancel()"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <span id="MessageErr" class="col-sm-offset-3 col-sm-9" ng-bind="MsgErr"></span>
+            <ul ng-repeat="r in errorMsgs">
+                <li>{{r}}</li>
+            </ul>
+        </div>
+    </fieldset>
+</form>

@@ -1,0 +1,18 @@
+C:\Projects\PingCo\PingCo\PingCo\bin\Release\PingCo.dll.config
+C:\Projects\PingCo\PingCo\PingCo\bin\Release\PingCo.dll
+C:\Projects\PingCo\PingCo\PingCo\bin\Release\PingCo.pdb
+C:\Projects\PingCo\PingCo\PingCo\bin\Release\EntityFramework.dll
+C:\Projects\PingCo\PingCo\PingCo\bin\Release\EntityFramework.SqlServer.dll
+C:\Projects\PingCo\PingCo\PingCo\bin\Release\EntityFramework.xml
+C:\Projects\PingCo\PingCo\PingCo\bin\Release\EntityFramework.SqlServer.xml
+C:\Projects\PingCo\PingCo\PingCo\obj\Release\PingCoCore.csprojResolveAssemblyReference.cache
+C:\Projects\PingCo\PingCo\PingCo\obj\Release\PingCo.dll
+C:\Projects\PingCo\PingCo\PingCo\obj\Release\PingCo.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\bin\Release\PingCo.dll.config
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\bin\Release\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\bin\Release\PingCo.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\bin\Release\EntityFramework.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\obj\Release\PingCoCore.csprojResolveAssemblyReference.cache
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\obj\Release\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\PingCo\PingCo\PingCo\PingCo\obj\Release\PingCo.pdb

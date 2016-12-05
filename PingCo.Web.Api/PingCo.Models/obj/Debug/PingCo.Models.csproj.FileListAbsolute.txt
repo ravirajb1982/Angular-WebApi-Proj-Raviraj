@@ -1,0 +1,18 @@
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\bin\Debug\PingCo.Models.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\bin\Debug\PingCo.Models.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\bin\Debug\PingCo.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\bin\Debug\EntityFramework.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\bin\Debug\PingCo.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\bin\Debug\EntityFramework.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\obj\Debug\PingCo.Models.csprojResolveAssemblyReference.cache
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\obj\Debug\PingCo.Models.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Models\obj\Debug\PingCo.Models.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\bin\Debug\PingCo.Models.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\bin\Debug\PingCo.Models.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\bin\Debug\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\bin\Debug\EntityFramework.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\bin\Debug\PingCo.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\bin\Debug\EntityFramework.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\obj\Debug\PingCo.Models.csprojResolveAssemblyReference.cache
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\obj\Debug\PingCo.Models.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Models\obj\Debug\PingCo.Models.pdb

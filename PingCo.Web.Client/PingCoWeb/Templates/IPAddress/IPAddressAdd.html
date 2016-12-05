@@ -1,0 +1,53 @@
+﻿<form name="myForm" id="IPAddressFormAdd"  class="form-horizontal" role="form">
+    <fieldset>
+        <legend>Add IPAddress</legend>
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="IsV6">IsV6</label>
+            <div class="col-sm-2">
+                <input class="form-control" type="checkbox" data-ng-model="IPAddress.IsV6" name="IsV6" /> 
+            </div>
+        </div>
+
+        <div class="form-group has-feedback">
+            <label class="col-sm-2 control-label" for="Interface">Interface</label>
+            <div class="col-sm-10">
+                <select class="form-control" name="InterfaceId" data-ng-model="IPAddress.InterfaceId" required ng-options="Interface.Id as Interface.Name for Interface in interfacesData">
+                    <option value="">Select Interface</option> 
+                </select>
+                <span ng-show="myForm.InterfaceId.$error.required"></span>
+            </div>           
+        </div>
+
+       <div class="form-group has-feedback" ng-class="{'has-success': myForm.Address.$valid, 'has-error': myForm.Address.$invalid}">
+            <label class="col-sm-2 control-label" for="IPAddress">Address</label>
+            <div class="col-sm-10">
+                <input ng-model="IPAddress.Address" ipaddress name="Address" class="form-control">
+                <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.Address.$valid, 'glyphicon-remove':  myForm.Address.$invalid}" aria-hidden="true"></span>
+            </div>               
+        </div>
+
+        <div class="form-group has-feedback" ng-class="{'has-success': myForm.Subnet.$valid, 'has-error': myForm.Subnet.$invalid}">
+            <label class="col-sm-2 control-label" for="SubNet">SubNet</label>
+            <div class="col-sm-10">
+                <input ng-model="IPAddress.Subnet" netmask name="Subnet" class="form-control">
+                <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-ok': myForm.Subnet.$valid, 'glyphicon-remove': myForm.Subnet.$invalid}" aria-hidden="true"></span>
+            </div> 
+        </div>
+
+        <br />
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="pull-right">
+                    <button class="btn btn-primary" data-ng-click="CreateIPAddress(IPAddress,myForm.$valid)"><span class="glyphicon glyphicon-ok-sign"></span> Add</button>
+                    <button class="btn btn-primary" data-ng-click="Cancel()"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <span id="MessageErr" class="col-sm-offset-3 col-sm-9" ng-bind="MsgErr"></span>
+            <ul ng-repeat="r in errorMsgs">
+                <li>{{r}}</li>
+            </ul>
+        </div>
+    </fieldset>
+</form>

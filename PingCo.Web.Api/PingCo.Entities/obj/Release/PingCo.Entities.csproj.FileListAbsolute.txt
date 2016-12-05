@@ -1,0 +1,9 @@
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\bin\Release\PingCo.dll.config
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\bin\Release\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\bin\Release\PingCo.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\bin\Release\EntityFramework.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\bin\Release\EntityFramework.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\obj\Release\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Entities\obj\Release\PingCo.pdb

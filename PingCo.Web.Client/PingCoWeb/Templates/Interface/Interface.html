@@ -1,0 +1,73 @@
+﻿<body ng-app="App">
+
+    <div ng-controller="InterfacesCtrl">
+   
+        <div class="container wrapper">
+            <nav class="navbar">
+                <div class="col-sm-2">
+                    <button  class="btn btn-primary" ng-click="Add()">Add Interface <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                </div>
+                <div class="col-sm-10">
+                    <span class="input-group-btn">
+                        <input type="text" class="form-control" ng-model="search" value="" placeholder="Search Interface Details ...">
+                    </span>
+                </div>
+                <div class="row"></div>
+                <span id="Messages" class="col-sm-offset-3 col-sm-9" ng-bind="Msg">  </span>
+            </nav>
+
+            <div class="col-md-6 col-md-offset-3">
+                <div  ng-if="ShowAdd == true" ng-include src="'Templates/Interface/InterfaceAdd.html'"></div>
+                <div ng-if="ShowEdit == true" ng-include src="'Templates/Interface/InterfaceEdit.html'"></div>
+            </div>
+            <div class="clearfix"></div>
+                    <div class="col-md-12">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Interfaces</h3>
+                            </div>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="display: none;">ID</th>
+                                        <th ng-click="Sort('Name')">Name</th>
+                                        <th ng-click="Sort('Device')">Device</th>
+                                        <th>
+                                            Actions
+                                        </th>
+                                        <th>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        <tr dir-paginate="items in interfacesData | filter:search | orderBy:key:AscOrDesc | itemsPerPage:5">
+                                        <td hidden="hidden">{{items.Id}}</td>
+                                        <td>{{items.Name}}</td>
+                                        <td>{{items.Device.Name}}</td>
+                                        <td hidden="hidden">{{items.Device.Id}}</td>
+                                        <td>
+                                            <button ng-model="$scope.Interface"
+                                                    ng-click="Edit(items)">
+                                                Edit
+                                            </button>
+                                            <button ng-click="DeleteInterface(items.Id)">Delete</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <dir-pagination-controls max-size="5"
+                                                     direction-links="true"
+                                                     boundary-links="true">
+                            </dir-pagination-controls>
+                        </div>
+                    </div>
+            </div>
+        <br />                             
+
+
+
+
+
+
+        </div>
+</body>

@@ -1,0 +1,108 @@
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\csc.exe
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\vbc.exe
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\VBCSCompiler.exe
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCoWebAPI.dll.config
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCoWebAPI.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCoWebAPI.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\EntityFramework.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\EntityFramework.SqlServer.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.Unity.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Newtonsoft.Json.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.BLL.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Net.Http.Formatting.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Web.Cors.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Web.Http.Cors.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Web.Http.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Web.Http.WebHost.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.DAL.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.Api.Common.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\AutoMapper.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.BLL.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\EntityFramework.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\EntityFramework.SqlServer.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.Unity.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Web.Http.Cors.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\Newtonsoft.Json.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Net.Http.Formatting.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Web.Http.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\System.Web.Http.WebHost.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.DAL.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\PingCo.Api.Common.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\bin\AutoMapper.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\obj\Debug\PingCo.Api.csprojResolveAssemblyReference.cache
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\obj\Debug\PingCoWebAPI.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.Api\obj\Debug\PingCoWebAPI.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\csc.exe
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\vbc.exe
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\VBCSCompiler.exe
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCoWebAPI.dll.config
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCoWebAPI.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCoWebAPI.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\EntityFramework.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\EntityFramework.SqlServer.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.Unity.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Newtonsoft.Json.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.BLL.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Web.Cors.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Web.Http.Cors.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Web.Http.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.DAL.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.Api.Common.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\AutoMapper.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.BLL.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\EntityFramework.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\EntityFramework.SqlServer.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.Unity.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Web.Http.Cors.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\Newtonsoft.Json.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Web.Http.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.DAL.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\PingCo.Api.Common.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\bin\AutoMapper.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\obj\Debug\PingCo.Api.csprojResolveAssemblyReference.cache
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\obj\Debug\PingCoWebAPI.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.Api\obj\Debug\PingCoWebAPI.pdb

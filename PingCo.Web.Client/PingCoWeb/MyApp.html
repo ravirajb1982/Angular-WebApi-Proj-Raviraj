@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html ng-app="App">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">Pingbo Project</div>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#Location"><i class="glyphicon glyphicon-home"></i>  Location List </a></li>
+                <li><a href="#Device"><i class="glyphicon glyphicon-book"></i>  Devices List </a></li>
+                <li><a href="#Interface"><i class="glyphicon glyphicon-paperclip"></i>  Interfaces List </a></li>
+                <li><a href="#IPAddress"><i class="glyphicon glyphicon-user"></i>  IpAddresses List</a></li>
+            </ul>
+        </div>
+    </nav>   
+
+    <div>
+        <div ng-view>
+        </div>
+    </div>
+</body>
+</html>
+<script src="Scripts/jquery-1.9.1.min.js"></script>
+<link href="Content/bootstrap.min.css" rel="stylesheet" />
+<script src="Scripts/APIScripts/env.js"></script>
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/angular-route.min.js"></script>
+<script src="Scripts/APIScripts/module.js"></script>
+<link href="Content/Style.css" rel="stylesheet" />
+<script src="Scripts/dirPagination.js"></script>
+<script src="Scripts/APIScripts/services.js"></script>
+<script src="Scripts/APIScripts/controllers.js"></script>
+<script src="Scripts/APIScripts/directives.js"></script>
+<script src="Scripts/angular-animate.min.js"></script>

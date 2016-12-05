@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PingCoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Devices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="RUHeight" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Interfaces">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Device_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="IPAddresses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsV6" Type="bit" Nullable="false" />
+    <Property Name="InterfaceId" Type="int" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Subnet" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RackId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RU" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_InterfaceDevices">
+    <End Role="Devices" Type="Self.Devices" Multiplicity="1" />
+    <End Role="Interfaces" Type="Self.Interfaces" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Devices">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Interfaces">
+        <PropertyRef Name="Device_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InterfaceIPAddress">
+    <End Role="Interfaces" Type="Self.Interfaces" Multiplicity="1" />
+    <End Role="IPAddresses" Type="Self.IPAddresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Interfaces">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="IPAddresses">
+        <PropertyRef Name="InterfaceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocationDevices">
+    <End Role="Locations" Type="Self.Locations" Multiplicity="1" />
+    <End Role="Devices" Type="Self.Devices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Devices">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PingCoModelStoreContainer">
+    <EntitySet Name="Devices" EntityType="Self.Devices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Interfaces" EntityType="Self.Interfaces" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IPAddresses" EntityType="Self.IPAddresses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Locations" EntityType="Self.Locations" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_InterfaceDevices" Association="Self.FK_InterfaceDevices">
+      <End Role="Devices" EntitySet="Devices" />
+      <End Role="Interfaces" EntitySet="Interfaces" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InterfaceIPAddress" Association="Self.FK_InterfaceIPAddress">
+      <End Role="Interfaces" EntitySet="Interfaces" />
+      <End Role="IPAddresses" EntitySet="IPAddresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocationDevices" Association="Self.FK_LocationDevices">
+      <End Role="Locations" EntitySet="Locations" />
+      <End Role="Devices" EntitySet="Devices" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

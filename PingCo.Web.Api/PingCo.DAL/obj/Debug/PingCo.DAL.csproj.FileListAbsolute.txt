@@ -1,0 +1,44 @@
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.DAL.dll.config
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.DAL.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.DAL.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\EntityFramework.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.Api.Common.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.Models.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\System.Web.Http.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\AutoMapper.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.Api.Common.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\PingCo.Models.pdb
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\EntityFramework.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\System.Web.Http.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\AutoMapper.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\obj\Debug\PingCo.DAL.csprojResolveAssemblyReference.cache
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\obj\Debug\PingCo.DAL.dll
+C:\Projects\PingCo\PingCo.WebApi\PingCo.DAL\obj\Debug\PingCo.DAL.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.DAL.dll.config
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.DAL.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.DAL.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\EntityFramework.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.Api.Common.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.Models.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\System.Web.Http.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\AutoMapper.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.Api.Common.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\PingCo.Models.pdb
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\EntityFramework.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\System.Web.Http.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\AutoMapper.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\obj\Debug\PingCo.DAL.csprojResolveAssemblyReference.cache
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\obj\Debug\PingCo.DAL.dll
+C:\Users\beyon\Documents\Visual Studio 2015\Projects\Final\Proj\PingCo.Web.Api\PingCo.DAL\obj\Debug\PingCo.DAL.pdb

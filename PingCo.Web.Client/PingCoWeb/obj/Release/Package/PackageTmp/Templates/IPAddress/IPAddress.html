@@ -1,0 +1,70 @@
+﻿<body ng-app="App">
+    <div ng-controller="IPAddressesCtrl">
+        <div class="container wrapper">
+            <nav class="navbar">
+                <div class="col-sm-2">
+                    <button class="btn btn-primary" ng-click="Add()">Add IPAddress <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                </div>
+                <div class="col-sm-10">
+                    <span class="input-group-btn">
+                        <input type="text" class="form-control" ng-model="search" value="" placeholder="Search IPAddress Details ...">
+                    </span>
+                </div>
+                <div class="row"></div>
+                <span id="Messages" class="col-sm-offset-3 col-sm-9" ng-bind="Msg">  </span>
+            </nav>
+
+            <div class="col-md-6 col-md-offset-3">
+                <div ng-if="ShowAdd == true" ng-include src="'Templates/IPAddress/IPAddressAdd.html'"></div>
+                <div ng-if="ShowEdit == true" ng-include src="'Templates/IPAddress/IPAddressEdit.html'"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">IPAddresss</h3>
+                    </div>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th style="display: none;">ID</th>
+                                <th ng-click="Sort('IsV6')">IsV6</th>
+                                <th ng-click="Sort('Interface')">Interface</th>
+                                <td ng-click="Sort('Address')">Address</td>
+                                <td ng-click="Sort('SubNet')">SubNet</td>
+                                <th>
+                                    Actions
+                                </th>
+                                <th>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr dir-paginate="items in ipAddressesData | filter:search | orderBy:key:AscOrDesc | itemsPerPage:5">
+                                <td hidden="hidden">{{items.Id}}</td>
+                                <td>
+                                    <input type="checkbox" data-ng-model="items.IsV6" ng-disabled="true" name="IsV6" /> 
+                                </td>
+                                <td>{{items.Interface.Name}}</td>
+                                <td>{{items.Address}}</td>
+                                <td>{{items.Subnet}}</td>
+                                <td>
+                                    <button ng-model="$scope.IPAddress"
+                                            ng-click="Edit(items)">
+                                        Edit
+                                    </button>
+                                    <button ng-click="DeleteIPAddress(items.Id)">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <dir-pagination-controls max-size="5"
+                                             direction-links="true"
+                                             boundary-links="true">
+                    </dir-pagination-controls>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+</body>
